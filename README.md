@@ -17,3 +17,4 @@ A fun group project for leisure
 
 # AI
 - Take a picture of the image on the fitness device recognize the fitness exercise 
+- Keeping track of nutritional intake, we can do this for example by using an api and scanning a barcode or an AI that scans an image of a product and recognizes and converts the nutritional values from it.
