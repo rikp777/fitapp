@@ -1,6 +1,14 @@
 # fitapp
 A fun group project for leisure 
 
+# How to git commit 
+When a feature is assigned to you, you create a branch for it, 
+then you commit your progress to this branch when committing, 
+it is important that you add the issue id, for example "implemented function create exercise #34" when your feature is complete, 
+you merge your feature branch with the dev branch.
+
+Your feature issue number can be found in the issue dashboard of Github.
+
 # Key elements 
 - Personalization 
   - Setting goals
