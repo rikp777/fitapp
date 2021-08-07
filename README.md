@@ -14,6 +14,7 @@ Your feature issue number can be found in the issue dashboard of Github.
   - Setting goals
   - Avatar 
   - Profile info 
+  - Main background change personal picture's / welcome screen photo doing workout 
 - Activity summaries / graphs 
 - Gamification 
   - exp/levels public list 
