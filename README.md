@@ -52,3 +52,24 @@ Paid subscription with psychological manipulation on the user
 # AI
 - Take a picture of the image on the fitness device recognize the fitness exercise 
 - Keeping track of nutritional intake, we can do this for example by using an api and scanning a barcode or an AI that scans an image of a product and recognizes and converts the nutritional values from it.
+
+
+# Mood module goal's
+- Sleep:red < 5.5 | yellow < 7 | green > 7
+  - Gone to bed time: time
+  - Woke up time: time 
+- Social media hours: red > 8 | yellow > 5 | green < 5
+- Reading: boolean | red = false | green = true or red less than 3 times a week
+- Sport: boolean | red = false | green = true or red less than 3 times a week
+- Alcohol/drug: boolean | red = false | green = true or red less than 3 times a week
+- Contact friend's in person: boolean
+- Contact friend's via social: boolean
+- Energie level: 1 to 10
+- Worked: boolean 
+- Left the house: boolean 
+  - Locations:
+  - Forest hours: 
+  - Steps:
+- What did you eat: 
+
+- Notes about your day
