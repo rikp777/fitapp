@@ -14,3 +14,7 @@ Com.fitapp.main
 - bootloader - main class
 - dto - dto classes 
 - repository - repository classes
+
+
+Some amazing plugins for gradle to look into
+https://github.com/ksoichiro/awesome-gradle
