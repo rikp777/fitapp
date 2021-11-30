@@ -1,6 +1,10 @@
 # fitapp
 A fun group project for leisure 
 
+## Run 
+- Linux: ```DOCKER_BUILDKIT=1 docker-compose up --build``` 
+- Windows:```docker-compose up --build```
+
 # How to git commit 
 When a feature is assigned to you, you create a branch for it, 
 then you commit your progress to this branch when committing, 
