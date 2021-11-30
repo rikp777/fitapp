@@ -17,6 +17,7 @@ Your feature issue number can be found in the issue dashboard of Github.
   - Main background change personal picture's / welcome screen photo doing workout 
 - Activity summaries / graphs 
 - Gamification 
+  - Location based overview with exercises from others around you. follow person or adopt exercise 
   - exp/levels public list 
   - Social Pressure (badges / friends) "trained for x hours in 1 day", "trained x days in a row"
     
@@ -33,6 +34,88 @@ Your feature issue number can be found in the issue dashboard of Github.
   - Gifting / Sharing share cool items or schema's 
   - Voting exercise 
   - The difficulty should grow incrementally and should have random easy days 
+- Exercise:
+  - Layout data structure   
+    ``` json
+    {
+      "meta": {
+        "weight_unit": "KG"
+      },
+      "workout": [
+        {
+          "id": 1,
+          "title": "Back & Biceps",
+          "dates": [
+            {
+              "date": "30-11-2021",
+              "started_at": "19:00",
+              "ended_at": "20:30",
+              "completed_exercises": [
+                {
+                  "exercises_id": 1,
+                  "note": "Less than previous sessions due to arm injury",
+                  "reps": [
+                   {
+                      "set": 1,
+                      "amount": 78,
+                      "reps": 8
+                    },
+                    { 
+                      "set": 2,
+                      "amount": 78,
+                      "reps": 8
+                    },
+                    { 
+                      "set": 3,
+                      "amount": 78,
+                      "reps": 5
+                    }
+                  ]
+                },
+                {
+                  "exercises_id": 2,
+                  "note": null,
+                  "reps": [
+                   {
+                      "set": 1,
+                      "amount": 40,
+                      "reps": 10
+                    },
+                    { 
+                      "set": 2,
+                      "amount": 40,
+                      "reps": 10
+                    },
+                    { 
+                      "set": 3,
+                      "amount": 40,
+                      "reps": 10
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "exercises_in_this_workout": [
+            1, 
+            2
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Pull up",
+          "video": "pull_up.mp4"
+        },
+        {
+          "id": 2,
+          "name": "Bicep Curl (Cable)",
+          "video": "bicep_curl_cable.mp4"
+        }
+      ]
+    }
+    ```
 - Social sharing interact with friends 
 - Exercise examples / Video tutorials
 - Pair with fitness devices such as watch 
