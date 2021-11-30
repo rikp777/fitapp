@@ -108,17 +108,79 @@ Your feature issue number can be found in the issue dashboard of Github.
         {
           "id": 1,
           "name": "Pull up",
-          "video": "pull_up.mp4"
+          "video": "pull_up.mp4",
+          "instructions": [
+            "Hold the pull up bar with a neutral grip with arms fully extended.",
+            "Retract scapula and pull upward by brining chest to the bar.",
+            "Pause at the top and squeeze the back before lowering slowly to the starting position.",
+            "Repeat for x reps"
+          ],
+          "muscle_groups_used": [
+            {
+              "muscles_id": 1,
+              "level_used": 2
+            },
+            {
+              "muscles_id": 2,
+              "level_used": 5
+            }
+          ]
         },
         {
           "id": 2,
           "name": "Bicep Curl (Cable)",
-          "video": "bicep_curl_cable.mp4"
+          "video": "bicep_curl_cable.mp4",
+          "instructions": null,
+          "muscle_groups": [
+          ]
+        }
+      ],
+      "muscles": [
+        {
+          "id": 1,
+          "name": "Latissimus dorsi"
+        },
+        {
+          "id": 2,
+          "name": "Pectoralis major"
+        },
+        {
+          "id": 3,
+          "name": "Pectoralis major"
+        },
+        {
+          "id": 4,
+          "name": "Teres major"
+        },
+        {
+          "id": 5,
+          "name": "Coracobrachialis"
+        },
+        {
+          "id": 6,
+          "name": "Subscapularis"
+        },
+        {
+          "id": 7,
+          "name": "Biceps"
+        },
+        {
+          "id": 8,
+          "name": "Triceps"
+        },
+        {
+          "id": 9,
+          "name": "Rhombold"
+        },
+        {
+          "id": 10,
+          "name": "Pectoralis minor"
         }
       ]
     }
     ```
   - Based on workout calculate calorie burn
+  - Based on musle level used provide suggestions for underexposed muscle groups 
 - Social sharing interact with friends 
 - Exercise examples / Video tutorials
 - Pair with fitness devices such as watch 
