@@ -33,7 +33,9 @@ Your feature issue number can be found in the issue dashboard of Github.
   - Boss Battles train against a knight 
   - Gifting / Sharing share cool items or schema's 
   - Voting exercise 
-  - The difficulty should grow incrementally and should have random easy days 
+  - The difficulty should grow incrementally and should have random easy days
+  
+  - Live: when doing a workout with friend your friend should be able see updates and finised workout instantly (websocket)
 - Exercise:
   - Layout data structure   
     ``` json
@@ -116,6 +118,7 @@ Your feature issue number can be found in the issue dashboard of Github.
       ]
     }
     ```
+  - Based on workout calculate calorie burn
 - Social sharing interact with friends 
 - Exercise examples / Video tutorials
 - Pair with fitness devices such as watch 
