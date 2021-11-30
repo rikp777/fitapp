@@ -1,0 +1,37 @@
+version: '3.6'
+
+services:
+  database:
+    image: mariadb # or mysql they are basically the same
+    container_name: flowcontrol_database
+    restart: always
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --default-authentication-plugin=mysql_native_password
+
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: user
+      MYSQL_PASSWORD: user
+
+    volumes:
+      - ./init:/docker-entrypoint-initdb.d
+      - ./docker-volumes/database/mariadb/:/var/lib/mysql
+
+    ports:
+      - "3386:3306"
+
+  main:
+    container_name: fitapp-main
+    hostname: fitapp-main
+    build: ./main
+
+    deploy:
+      resources:
+        limits:
+          cpus: "0.50"
+          memory: 512M
+        reservations:
+          cpus: "0.25"
+          memory: 128M
+
+    ports:
+      - "7071:7071"

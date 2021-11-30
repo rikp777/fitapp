@@ -1,5 +1,8 @@
 package com.fitapp.main.service;
 
-public interface UserService {
-    UserDto findUserByEmail(String email);
+import com.fitapp.main.dto.model.UserDto;
+import org.springframework.stereotype.Service;
+
+@Service
+public class UserService {
 }

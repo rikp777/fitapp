@@ -2,6 +2,7 @@ package com.fitapp.main.service;
 
 import com.fitapp.main.model.MyUserDetails;
 import com.fitapp.main.model.Privilege;
+import com.fitapp.main.model.Role;
 import com.fitapp.main.model.User;
 import com.fitapp.main.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +13,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import javax.management.relation.Role;
 import javax.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.Collection;
