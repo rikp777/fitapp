@@ -1,4 +1,5 @@
 package com.fitapp.main.service;
 
-public class UserService {
+public interface UserService {
+    UserDto findUserByEmail(String email);
 }
