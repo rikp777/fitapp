@@ -9,6 +9,17 @@ you merge your feature branch with the dev branch.
 
 Your feature issue number can be found in the issue dashboard of Github.
 
+# Frameworks/ technologies 
+- C# asp.net core
+- Angular   
+  - How to consume a HATEOAS REST API?  
+- Api response model: hateoas hal
+- Architecture N-Tier 
+- Websockets 
+- Migrations
+- ORM EntityFrameworkCore
+
+
 # Key elements 
 - Personalization 
   - Setting goals
