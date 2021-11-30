@@ -51,8 +51,45 @@ Your feature issue number can be found in the issue dashboard of Github.
   - Layout data structure   
     ``` json
     {
+      "user": {
+        "name": "Rikp777",
+        "avatar": "me.png",
+        "bio": "Hey it's me! checkout my workouts and progress",
+        "size": 200,
+        "goals": [],
+        "measurements": {
+          "weight": [
+            {
+              "amount": 78,
+              "date": "30-11-2021"
+            },
+            {
+              "amount": 75,
+              "date": "30-04-2021"
+            }
+          ],
+          "body_fat_percentage":[],
+          "neck": [],
+          "shoulders": [],
+          "chest": [],
+          "left_bicep": [],
+          "right_bicep": [],
+          "left_forearm": [],
+          "right_forearm": [],
+          "upper_abs": [],
+          "waist": [],
+          "lower_abs": [],
+          "hips": [],
+          "left_tight": [],
+          "right_tight": [],
+          "left_calf": [],
+          "right_calf": []
+        }
+      },
       "meta": {
-        "weight_unit": "KG"
+        "weight_unit": "kg",
+        "size_unit": "cm",
+        "first_weekday": "monday"
       },
       "workout": [
         {
