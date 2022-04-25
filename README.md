@@ -1,7 +1,10 @@
 # fitapp
 A fun group project for leisure 
 
-## Run 
+## Run
+Initial containers you'll need for an easy start. 
+The compose file will include the database and other tools you'll need.\
+To run them make sure you have [docker](https://docs.docker.com/desktop/windows/install/) installed and run the command below:
 - Linux: ```DOCKER_BUILDKIT=1 docker-compose up --build``` 
 - Windows:```docker-compose up --build```
 
@@ -14,14 +17,19 @@ you merge your feature branch with the dev branch.
 Your feature issue number can be found in the issue dashboard of Github.
 
 # Frameworks/ technologies 
-- C# asp.net core
-- Angular   
+Backend:
+- [Go lang](https://go.dev/)
+  - Migrations
+  - ORM
+  - Rest API
+    - Api response model: hateoas hal
+  - Architecture N-Tier/CQRS/MVC
+
+Frontend:
+- [React](https://reactjs.org/)   
   - How to consume a HATEOAS REST API?  
-- Api response model: hateoas hal
-- Architecture N-Tier 
-- Websockets 
-- Migrations
-- ORM EntityFrameworkCore
+
+
 
 
 # Key elements 
